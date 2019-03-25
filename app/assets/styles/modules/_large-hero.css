@@ -31,20 +31,20 @@
 
 }
 
-    }
 
     &__description {
         color: #8d8c8c;
         font-size: 1.1rem;
-        font-weight: 95;
+        font-weight: 100;
         max-width: 30rem;
-        margin-right: 5px;
-        margin-left: 5px;
+
 @mixin atSmall {
-    font-size: 1.8rem;
+    font-size: 1rem;
 }
 
     }
+
+}
     
 
 

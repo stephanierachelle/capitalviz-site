@@ -22,16 +22,16 @@
     }
   
     &--blue {
-      background-color: $mainBlue;
-      color: #FFF;
+      background-color: #ffffff;
+      color: #000000;
     }
 
     &--testimonials {
-      background-color: #e0e6ef;
+      background-color: #ffffff;
       
       @mixin atLarge {
         &.lazyloaded {
-          background: url('../../assets/images/testimonials-bg.jpg') top center no-repeat;
+          background-color: #ffffff;
           background-size: cover; 
         }
       }
