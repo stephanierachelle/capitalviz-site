@@ -1,0 +1,20 @@
+.btn {
+background-color: #ffffff;
+box-shadow: 3px 3px 0 rgba(0, 0, 0, .1);
+color: #000000;
+text-decoration: none;
+padding: .75rem 1.2rem;
+display: inline-block;
+
+&--orange {
+    background-color: #ffffff;
+}
+
+&--large {
+    padding: 1.1rem 1.9rem;
+
+    @mixin atSmall {
+    font-size: .8rem; 
+    }
+}
+}

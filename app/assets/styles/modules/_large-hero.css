@@ -1,0 +1,52 @@
+.large-hero {
+    position: relative;
+
+    &__image {
+        display: block;
+    }
+
+    &__text-content {
+        padding-top: 88px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
+        width: 100%;
+        text-align: left;
+
+        @mixin atMedium {
+        padding-top: 60px;
+        }
+    }
+
+    &__title {
+        font-weight: 350;
+        color: #080808;
+        margin: 0;
+        font-size: 2.4rem;
+
+        @mixin atSmall {
+            font-size: 2.5rem;
+        }
+
+}
+
+    }
+
+    &__description {
+        color: #8d8c8c;
+        font-size: 1.1rem;
+        font-weight: 95;
+        max-width: 30rem;
+        margin-right: 5px;
+        margin-left: 5px;
+@mixin atSmall {
+    font-size: 1.8rem;
+}
+
+    }
+    
+
+
+
+
