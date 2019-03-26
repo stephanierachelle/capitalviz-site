@@ -1,7 +1,7 @@
 .headline {
 font-weight: 300;
 font-size: 1.9rem;
-color: #050505;
+color: $mainWhite;
 
 @mixin atSmall {
     font-size: 2.875rem;
@@ -11,7 +11,7 @@ color: #050505;
 }
 
 &--orange {
-    color: #eedb84;
+    color: $mainBlue;
 }
 
 &--small {

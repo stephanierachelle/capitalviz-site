@@ -452,7 +452,7 @@ template {
 
 body {
     font-family: 'Montserrat ', sans-serif;
-    color: rgb(204, 69, 69);
+    color: rgb(52, 52, 52);
 }
 
 img {
@@ -467,7 +467,7 @@ img {
 }
 
 a {
-    color: #d59541;
+    color: #ffffff;
 }
 
 .large-hero {
@@ -499,9 +499,9 @@ a {
 
 .large-hero__title {
         font-weight: 350;
-        color: #080808;
+        color: #ffffff;
         margin: 0;
-        font-size: 2.4rem;
+        font-size: 1.6rem;
 
 }
 
@@ -514,7 +514,7 @@ a {
     }
 
 .large-hero__description {
-        color: #8d8c8c;
+        color: #ffffff;
         font-size: 1.1rem;
         font-weight: 100;
         max-width: 30rem;
@@ -669,7 +669,7 @@ border-radius: 30px;
 .headline {
 font-weight: 300;
 font-size: 1.9rem;
-color: #050505;
+color: #ffffff;
 
 }
 
@@ -686,7 +686,7 @@ color: #050505;
 }
 
 .headline--orange {
-    color: #eedb84;
+    color: #2f5572;
 }
 
 .headline--small {
@@ -751,7 +751,7 @@ margin-top: 0;
   }
 
 .row--gutters > div {
-    padding-right: 65px;
+    padding-right: 100px;
   }
 
 .row--gutters-large > div {
@@ -972,9 +972,11 @@ margin-top: 0;
     }
 
 .testimonial {
-  background-color: rgba(255, 255, 255, .8);
+  background-color: rgba(255, 255, 255, 0.8);
   padding: 0 18px 1px 18px;
   margin-bottom: 98px;
+
+ 
 }
 
 @media (min-width: 1200px){
@@ -982,6 +984,8 @@ margin-top: 0;
 .testimonial {
     margin-bottom: 0;  
     padding: 0 1.8125rem 1px 1.8125rem
+
+ 
 }  
 }
 
@@ -990,8 +994,6 @@ margin-top: 0;
   }
 
 .testimonial__photo {
-      
-      overflow: hidden;
       width: 160px;
       height: 160px;
       margin:0 auto -80px auto;
@@ -1000,24 +1002,7 @@ margin-top: 0;
       border: 6px solid rgba(255, 255, 255, .8);
       -webkit-box-align: center;
           -ms-flex-align: center;
-              align-items: center;
-  }
-
-.testimonial__title {
-    color: #000000;
-    text-align: center;
-    font-size: 1.5rem;
-    font-weight: 500;
-    margin: 0;
-
-  }
-
-.testimonial__subtitle {
-color: #a0a0a0;
-text-align: center;
-font-weight: 400;
-font-size: 0.9375rem;
-margin: .25rem 0 1rem 0;
+              align-items: center
   }
 
 /* Do not edit modules/_sprite directly as it is generated automatically by Gulp.
@@ -1150,7 +1135,7 @@ Instead edit gulp/templates/sprite */
 }
 
         .site-header--dark {
-            background-color: rgba(255,255,255, .85);
+            background-color: rgba(35,31,32, .85);
         }
     }
 
@@ -1361,7 +1346,7 @@ Instead edit gulp/templates/sprite */
     }
 
 .primary-nav a {
-        color: #000000;
+        color: #ffffff;
         font-weight: 300;
         text-decoration: none;
         display: block;
@@ -1459,7 +1444,7 @@ Instead edit gulp/templates/sprite */
 }
 
 .social-icons__icon {
-    background-color: #d59541;  
+    background-color: #2f5572;  
     display: inline-block;
     margin: 0 5px 5px;
     width: 33%;

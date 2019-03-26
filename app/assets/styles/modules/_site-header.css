@@ -14,7 +14,7 @@
         background-color: rgba(#ffffff, 0);
 
         &--dark {
-            background-color: rgba(#ffffff, .85);
+            background-color: rgba(#231F20, .85);
         }
     }
 

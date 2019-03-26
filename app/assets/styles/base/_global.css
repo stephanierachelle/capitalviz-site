@@ -1,6 +1,6 @@
 body {
     font-family: 'Montserrat ', sans-serif;
-    color: rgb(204, 69, 69);
+    color: rgb(52, 52, 52);
 }
 
 img {
@@ -14,5 +14,5 @@ img {
 }
 
 a {
-    color: $mainOrange;
+    color: $mainWhite;
 }
