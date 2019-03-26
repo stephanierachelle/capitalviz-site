@@ -1,4 +1,4 @@
-.large-hero {
+.about-hero {
     position: relative;
 
     &__image {
@@ -12,7 +12,7 @@
         transform: translateY(-50%);
         left: 0;
         width: 100%;
-        text-align: center;
+        text-align: right;
 
         @mixin atMedium {
         padding-top: 60px;
@@ -36,10 +36,7 @@
         color: $mainWhite;
         font-size: 1.1rem;
         font-weight: 100;
-        margin: 10px;
-        
-
-        
+        max-width: 30rem;
 
 @mixin atSmall {
     font-size: 1rem;
@@ -48,8 +45,3 @@
     }
 
 }
-    
-
-
-
-
