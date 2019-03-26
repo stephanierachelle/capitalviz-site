@@ -2,6 +2,7 @@
   background-color: rgba(255, 255, 255, .8);
   padding: 0 18px 1px 18px;
   margin-bottom: 98px;
+  
 
 
   @mixin atLarge {
@@ -14,7 +15,7 @@
   }
 
   &__photo {
-      border-radius: 80px;
+      
       overflow: hidden;
       width: 160px;
       height: 160px;
@@ -22,10 +23,11 @@
       position: relative;
       top: -80px;
       border: 6px solid rgba(255, 255, 255, .8);
+      align-items: center;
   }
 
   &__title {
-    color: $mainBlue;
+    color: #000000;
     text-align: center;
     font-size: 1.5rem;
     font-weight: 500;
@@ -34,7 +36,7 @@
   }
 
   &__subtitle {
-color: $mainOrange;
+color: #a0a0a0;
 text-align: center;
 font-weight: 400;
 font-size: 0.9375rem;
