@@ -452,7 +452,7 @@ template {
 
 body {
     font-family: 'Montserrat ', sans-serif;
-    color: rgb(52, 52, 52);
+    color: rgb(0, 0, 0);
 }
 
 img {
@@ -1354,7 +1354,7 @@ Instead edit gulp/templates/sprite */
         display: block;
         padding: 5px 8px;
         font-size: .8rem;
-        background-color: rgba(0, .5);
+        background-color: rgba(136,136,136, .5);
         
     }
 
@@ -1368,7 +1368,7 @@ Instead edit gulp/templates/sprite */
     }
 
             .primary-nav a.is-current-link {
-                color: #252525;
+                color: #ffffff;
             }
     }
 
