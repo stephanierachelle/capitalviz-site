@@ -529,6 +529,8 @@ a {
 
     }
 
+/* desktop*/
+
 @media (min-width: 530px) {
 
 .large-hero__description {
@@ -546,7 +548,8 @@ color: #000000;
 text-decoration: none;
 padding: .75rem 1.2rem;
 display: inline-block;
-border-radius: 30px;
+border-radius: 28px;
+font-size: .7rem;
 }
 
 .btn--orange {
@@ -561,7 +564,7 @@ border-radius: 30px;
 @media (min-width: 530px) {
 
 .btn--large {
-    font-size: .8rem
+    font-size: .7rem
 }
     }
 

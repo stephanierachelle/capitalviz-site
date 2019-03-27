@@ -1,11 +1,12 @@
 .btn {
-background-color: #ffffff;
+background-color: $mainWhite;
 box-shadow: 3px 3px 0 rgba(0, 0, 0, .1);
 color: #000000;
 text-decoration: none;
 padding: .75rem 1.2rem;
 display: inline-block;
-border-radius: 30px;
+border-radius: 28px;
+font-size: .7rem; 
 
 &--orange {
     background-color: #ffffff;
@@ -16,7 +17,7 @@ border-radius: 30px;
     padding: 1rem 1.2rem;
 
     @mixin atSmall {
-    font-size: .8rem; 
+    font-size: .7rem; 
     }
 }
 }

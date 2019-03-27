@@ -42,11 +42,11 @@
         font-weight: 100;
         max width: 281px;
         margin: 15px;
-        
+    
+/* desktop*/    
 @mixin atSmall {
     font-size: 1.5rem;
-    max width: 545px;
-    
+    max width: 545px;  
 }
 
     }
