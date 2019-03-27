@@ -23,33 +23,32 @@
         font-weight: 350;
         color: $mainWhite;
         margin: 0;
-        font-size: 1.6rem;
+        font-size: 2rem;
+        
+
+        @mixin atMedium {
+            font-size: 2.5rem;
+        }
 
         @mixin atSmall {
             font-size: 2.5rem;
         }
-
 }
 
-
+/* mobile */
     &__description {
         color: $mainWhite;
         font-size: 1.1rem;
         font-weight: 100;
-        margin: 10px;
+        max width: 281px;
+        margin: 15px;
         
-
-        
-
 @mixin atSmall {
-    font-size: 1rem;
+    font-size: 1.5rem;
+    max width: 545px;
+    
 }
 
     }
 
 }
-    
-
-
-
-

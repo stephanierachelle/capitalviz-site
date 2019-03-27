@@ -501,30 +501,39 @@ a {
         font-weight: 350;
         color: #ffffff;
         margin: 0;
-        font-size: 1.6rem;
-
+        font-size: 2rem;
 }
+
+@media (min-width: 800px){
+
+.large-hero__title {
+            font-size: 2.5rem
+}
+    }
 
 @media (min-width: 530px) {
 
 .large-hero__title {
             font-size: 2.5rem
-
 }
     }
+
+/* mobile */
 
 .large-hero__description {
         color: #ffffff;
         font-size: 1.1rem;
         font-weight: 100;
-        margin: 10px;
+        max width: 281px;
+        margin: 15px;
 
     }
 
 @media (min-width: 530px) {
 
 .large-hero__description {
-    font-size: 1rem
+    font-size: 1.5rem;
+    max width: 545px
 
     }
     }
@@ -880,34 +889,33 @@ margin-top: 0;
           }
 
 .section-title {
- font-size: 2.55rem;
- font-weight: 300;
+ font-size: 2.rem;
+ font-weight: 350;
  text-align: center;
-
-}
+ color: #000000;
+   }
 
 @media (min-width: 530px) {
 
 .section-title {
-    font-size: 3.75rem
-
-}
+    font-size: 3.rem
+   }
     }
 
-.section-title strong {
-    font-weight: 500;
+strong {
+    font-weight: 600;
  }
 
-.section-title--blue {
+&--blue {
     color: #2f5572;
  }
 
-.section-title--less-margin {
+&--less-margin {
     margin-bottom: 1.3rem;
     margin-top: 0;
  }
 
-.section-title__icon {
+&__icon {
      display: block;
      margin-left: auto;
      margin-right: auto;
@@ -916,7 +924,7 @@ margin-top: 0;
 
 @media (min-width: 530px) {
 
-.section-title__icon {
+&__icon {
         position: relative;
         top: 8px;
         margin-right: .5rem;
