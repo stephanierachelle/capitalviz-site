@@ -8,18 +8,46 @@ color: $mainWhite;
 }
 &--centered {
     text-align: center;
-}
-
-&--orange {
-    color: $mainBlue;
-}
-
-&--small {
-    font-size: 1.2rem;
 
     @mixin atSmall {
-        font-size: 1.875rem;    
+        text-align: center;
     }
+    
+}
+
+&__text-content {
+    padding-top: 88px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 100%;
+    text-align: center;
+
+    @mixin atMedium {
+    padding-top: 60px;
+    }
+}
+
+/* mobile */
+&__description {
+    color: $mainWhite;
+    font-size: 1.1rem;
+    font-weight: 100;
+    max width: 17.563rem;
+
+    @mixin atSmall {
+    align-text: center;    
+    }
+
+/* desktop*/    
+@mixin atSmall {
+font-size: 1.5rem;
+max width: 34.0625rem;  
+    }
+}
+
+
 }
 &--narrow {
     max-width: 500px;
@@ -27,10 +55,6 @@ color: $mainWhite;
     margin-right: auto;    
 }
 
-&--light {
-    font-weight: 100;
-
-}
 
 &--strong {
     font-weight: 400;
@@ -46,7 +70,6 @@ margin-bottom: 1.6em;
 }
 
 &--no-t-margin {
-margin-top: 0;
-}
+    margin-top: 0;
+    }
 
-}

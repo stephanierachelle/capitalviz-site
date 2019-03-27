@@ -1,5 +1,5 @@
 .page-section {
-    padding: 1.2rem 0;
+    padding: 1.2rem 0rem;
   
     @mixin atMedium {
       padding: 4.5rem 0;
@@ -21,13 +21,20 @@
       }
     }
   
-    &--blue {
+    &--white {
       background-color: #ffffff;
       color: #000000;
     }
 
+    &--slate {
+      background-color: #222325;
+      color: $mainWhite;
+    }
+
     &--testimonials {
       background-color: #ffffff;
+
+    
       
       @mixin atLarge {
         &.lazyloaded {
@@ -35,6 +42,5 @@
           background-size: cover; 
         }
       }
-      
     }
   }
