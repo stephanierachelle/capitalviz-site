@@ -1,8 +1,8 @@
 .page-section {
-    padding: 1.2rem 0rem;
+    padding: 2rem 0rem;
   
     @mixin atMedium {
-      padding: 4.5rem 0;
+      padding: 4rem 0;
     }
     
     &--no-b-padding-until-medium {
@@ -35,12 +35,6 @@
       background-color: #ffffff;
 
     
-      
-      @mixin atLarge {
-        &.lazyloaded {
-          background-color: #ffffff;
-          background-size: cover; 
-        }
-      }
+  
     }
   }

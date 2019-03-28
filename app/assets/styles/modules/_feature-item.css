@@ -1,19 +1,22 @@
 .feature-item {
-    position: relative;
-    padding-bottom: 2.5rem;
+    margin:25px auto 25px auto;
+        background-position: center 5px;
+        background-repeat: no-repeat;
+        background-size: 100px 100px;
+        background-position: 0;
+    
+        padding-bottom: 2.5rem;
+    
 
     @mixin atSmall {
-        padding-left: 94px;
+        padding-left: 20px;
+        
     }
 
     &__icon {
         display: block;
-        margin: 0 auto;
-        @mixin atSmall {
-            position: absolute;
-            
-        }
         
+    
     }
 
     &__title {
@@ -37,6 +40,7 @@
         margin-top: .7em;
         margin-bottom: .8rem;
         text-align: center;  
+        
         }
 
         @mixin atSmall {

@@ -619,13 +619,13 @@ font-size: 1rem
     }
 
 .page-section {
-    padding: 1.2rem 0rem;
+    padding: 2rem 0rem;
   }
 
 @media (min-width: 800px){
 
 .page-section {
-      padding: 4.5rem 0
+      padding: 4rem 0
   }
     }
 
@@ -663,14 +663,10 @@ font-size: 1rem
 
 .page-section--testimonials {
       background-color: #ffffff;
-    }
 
-@media (min-width: 1200px){
-        .page-section--testimonials.lazyloaded {
-          background-color: #ffffff;
-          background-size: cover; 
-        }  
-}
+    
+  
+    }
 
 .headline {
 font-weight: 300;
@@ -819,6 +815,7 @@ margin-bottom: 1.6em;
     }
 
     .row__medium-4--larger {
+      float: left;
       width: 37%;
     }
     
@@ -966,29 +963,26 @@ strong {
     }
 
 .feature-item {
-    position: relative;
-    padding-bottom: 2.5rem;
+    margin:25px auto 25px auto;
+        background-position: center 5px;
+        background-repeat: no-repeat;
+        background-size: 100px 100px;
+        background-position: 0;
+    
+        padding-bottom: 2.5rem;
     }
 
 @media (min-width: 530px) {
 
 .feature-item {
-        padding-left: 94px
+        padding-left: 20px
     }
     }
 
 .feature-item__icon {
         display: block;
-        margin: 0 auto;
         
-    }
-
-@media (min-width: 530px) {
-
-.feature-item__icon {
-            position: absolute
-        
-    }
+    
     }
 
 .feature-item__title {
@@ -1013,6 +1007,7 @@ strong {
         margin-top: .7em;
         margin-bottom: .8rem;
         text-align: center;  
+        
         }
 
 @media (min-width: 530px) {
@@ -1235,7 +1230,10 @@ Instead edit gulp/templates/sprite */
     }
 
 .site-header__logo__graphic {
-        text-indent: -9999px;
+        text-indent: 0px;
+    }
+
+@media (min-width: 530px) {
     }
 
 .site-header__menu-icon {
