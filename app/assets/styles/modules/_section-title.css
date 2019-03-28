@@ -1,12 +1,12 @@
 .section-title {
- font-size: 2.rem;
+ font-size: 1.7rem;
  font-weight: 350;
  text-align: center;
  color: #000000;
 
 
  @mixin atSmall {
-    font-size: 3.rem;
+    font-size: 2.2rem;
  }
    }
 

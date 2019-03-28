@@ -677,7 +677,7 @@ font-size: .7rem;
 
 .headline {
 font-weight: 300;
-font-size: 1.9rem;
+font-size: 1.7rem;
 color: #ffffff;
 
 
@@ -686,7 +686,7 @@ color: #ffffff;
 @media (min-width: 530px) {
 
 .headline {
-    font-size: 2.875rem
+    font-size: 2.2rem
 
 
 }
@@ -923,7 +923,7 @@ margin-bottom: 1.6em;
           }
 
 .section-title {
- font-size: 2.rem;
+ font-size: 1.7rem;
  font-weight: 350;
  text-align: center;
  color: #000000;
@@ -932,7 +932,7 @@ margin-bottom: 1.6em;
 @media (min-width: 530px) {
 
 .section-title {
-    font-size: 3.rem
+    font-size: 2.2rem
    }
     }
 
