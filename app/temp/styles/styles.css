@@ -967,15 +967,14 @@ strong {
 
 .feature-item {
     position: relative;
-    
     padding-bottom: 2.5rem;
-}
+    }
 
 @media (min-width: 530px) {
 
 .feature-item {
         padding-left: 94px
-}
+    }
     }
 
 .feature-item__icon {
@@ -987,8 +986,7 @@ strong {
 @media (min-width: 530px) {
 
 .feature-item__icon {
-            position: absolute;
-            left: 0
+            position: absolute
         
     }
     }
@@ -1004,9 +1002,25 @@ strong {
 @media (min-width: 530px) {
 
 .feature-item__title {
-            text-align: left;
-            font-size: 1.875rem;
-            margin-top: 1em
+            text-align: center;
+            font-size: 1.2rem;
+            margin-top: 3em
+    }
+    }
+
+.feature-item__description {
+        font-size: 1rem;
+        margin-top: .7em;
+        margin-bottom: .8rem;
+        text-align: center;  
+        }
+
+@media (min-width: 530px) {
+
+.feature-item {
+            text-align: center;
+            font-size: 1.2rem;
+            margin-top: 3em
     }
     }
 
@@ -1152,7 +1166,7 @@ Instead edit gulp/templates/sprite */
     }
 
 .site-header {
-    padding: 10px 0;
+    padding: 13px 0;
     position: absolute;
     width: 100%;
     z-index: 2;
@@ -1183,7 +1197,8 @@ Instead edit gulp/templates/sprite */
 @media (min-width: 800px){
 
 .site-header__btn-container {
-            float: right
+            float: right;
+            padding: 8px .2px
         
     }
     }
@@ -1200,7 +1215,7 @@ Instead edit gulp/templates/sprite */
        transition: transform .3s ease-out, -webkit-transform .3s ease-out;
        -webkit-transform-origin: 50% 0%;
                transform-origin: 50% 0%;
-       padding: 10px 36px;
+       padding: 25px 36px;
 
     }
 
@@ -1225,7 +1240,7 @@ Instead edit gulp/templates/sprite */
 
 .site-header__menu-icon {
     width: 20px;
-    height: 18px;
+    height: 19px;
     position: absolute;
     z-index: 10;
     top: 10px;
@@ -1338,7 +1353,7 @@ Instead edit gulp/templates/sprite */
 @media (min-width: 800px){
 
 .primary-nav {
-        padding-top: 10px
+        padding-top: 0px
         
     }
     }
@@ -1407,9 +1422,10 @@ Instead edit gulp/templates/sprite */
 @media (min-width: 800px){
 
 .primary-nav a {
-            font-size: 1rem;
+            font-size: 1.2rem;
             padding: 12px 0;
-            background-color: transparent
+            background-color: transparent;
+            margin: 10px
         }
 
             .primary-nav a.is-current-link {
