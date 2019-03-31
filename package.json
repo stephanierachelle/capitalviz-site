@@ -14,7 +14,11 @@
     "normalize.css": "7.0.0",
     "picturefill": "^3.0.3",
     "sass": "^1.17.3",
+<<<<<<< HEAD
+    "svgmin": "^0.1.0",
+=======
     "svg-sprite": "^1.5.0",
+>>>>>>> 0f2aaa7957532a4bc5462af7caed5c181582198f
     "waypoints": "^4.0.1"
   },
   "devDependencies": {
