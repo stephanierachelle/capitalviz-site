@@ -5,3 +5,5 @@ require('./gulp/tasks/sprites');
 require('./gulp/tasks/scripts');
 require('./gulp/tasks/modernizr');
 require('./gulp/tasks/build');
+var gulp = require('gulp');
+gulp.task('viz', require('gulp-task-graph-visualizer')());
