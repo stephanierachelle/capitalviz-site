@@ -2,8 +2,11 @@
   "name": "travel-site",
   "version": "1.0.0",
   "dependencies": {
+    "ajv": "^6.10.0",
+    "events": "^3.0.0",
     "git": "^0.1.5",
     "gulp-sass": "^4.0.2",
+    "gulp-svgmin": "^2.1.0",
     "init": "^0.1.2",
     "jquery": "^3.3.1",
     "jquery-smooth-scroll": "^2.2.0",
