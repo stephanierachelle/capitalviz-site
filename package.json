@@ -7,6 +7,7 @@
     "git": "^0.1.5",
     "gulp-sass": "^4.0.2",
     "gulp-svgmin": "^2.1.0",
+    "gulp-task-graph-visualizer": "^1.0.0",
     "init": "^0.1.2",
     "jquery": "^3.3.1",
     "jquery-smooth-scroll": "^2.2.0",
@@ -14,11 +15,8 @@
     "normalize.css": "7.0.0",
     "picturefill": "^3.0.3",
     "sass": "^1.17.3",
-<<<<<<< HEAD
-    "svgmin": "^0.1.0",
-=======
     "svg-sprite": "^1.5.0",
->>>>>>> 0f2aaa7957532a4bc5462af7caed5c181582198f
+    "svgmin": "^0.1.0",
     "waypoints": "^4.0.1"
   },
   "devDependencies": {
