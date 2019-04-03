@@ -32,7 +32,7 @@ color: $mainWhite;
 /* mobile */
 &__description {
     color: $mainWhite;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 100;
     max width: 17.563rem;
 
