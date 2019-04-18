@@ -14,6 +14,10 @@ gulp.task('watch', function() {
     watch ('./app/index.html', function(){
         browserSync.reload(); 
     });
+
+    watch ('./app/contact.html', function(){
+        browserSync.reload(); 
+    });
     
     watch('./app/assets/styles/**/*.css', function (){
         gulp.start('cssInject');
