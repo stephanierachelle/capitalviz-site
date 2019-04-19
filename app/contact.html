@@ -1,66 +1,35 @@
 <!DOCTYPE html>
 <html>
-<body>
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link
-	rel="stylesheet"
-	href="http://use.fontawesome.com/releases/v5.8.1/css/all.css"
-    integrity="sha384-50oBUHEmvpQ"
-    crossorgin="anonymous"/>
-
-<link rel="stylesheet" href="style.css"/>
+		<title>Contact Us</title>
+	  <!-- build:css assets/styles/styles.css -->
+	  <link rel="stylesheet" href="temp/styles/styles.css">
+	  <!-- endbuild -->
+	  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+	  <script src="./main.js"></script>
 </head>
+<body>
+	<div class="contact-title">
+			<h1>Contact Us</h1>
+			<h2>Have a question? Let's get in touch.</h2>
+	</div>
+   <div class="contact-form">
+		<form id="contact-form" method="post" action="">
+				
+			<input name="firstName" type="text" class="form-ctrl" placeholder="Your First Name" required><br>
 
-<section id="title" class="container clearfix">
-	
-	
-    <!-- Title -->
-    <div class="ten columns">
-            
-        <h1>Contact Us</h1>
-        <h2>We'd love to hear from you. Send us a quick message below and we'll respond as soon as possible.</h2>
-        
-    </div>
-    <!-- End Title -->
-    
-     
-</section><!-- END CONTAINER -->
+			<input name="lastName" type="text" class="form-ctrl" placeholder="Your Last Name"required><br>
 
-<section id="contact" class="container clearfix">
-	
-		
-		<div class="two-thirds column">
-			<!-- Form -->
-			<form method="post" action="server.js" name="contactform" id="contactform">
-				<fieldset>
-					<div class="form-field">
-						<label for="name"><h5>Name</h5></label>
-						<span><input type="text" name="name" id="name" /></span>
-					</div>
-					<div class="form-field">
-						<label for="email"><h5>Email Address</h5></label>
-						<span><input type="email" name="email" id="email" /></span>
-					</div>
-					<div class="form-field">
-						<label for="message"><h5>Message</h5></label>
-						<span><textarea name="message" id="message"></textarea></span>
-					</div>
-				</fieldset>
-				<div class="form-click">
-					<span><input type="submit" name="submit" value="Send" id="submit" /></span>
-				</div>
+			<input name="email" type="email" class="form-ctrl" placeholder="Your Email"required><br>
+
+			<textarea name="message" class="form-ctrl" placeholder="Message" rows="4" required></textarea><br>
+
+			<div class="status"></div>
+			<input type="submit" class="form-ctrl submit" value="SEND MESSAGE">
 			</form>	
+			
+		</div>
 			<!-- End Form -->
-			<div id="alert"></div>
-		</div>
-
-<footer>
-		<div class="wrapper"><p><span class="site-footer__text"> &copy; 2019 Capitalviz. All rights reserved.</span> <a href="#" class="btn open-modal"><strong>Get in Touch</strong> </a></p>
-		</div>
-</footer>
 </body>
-
 </html>

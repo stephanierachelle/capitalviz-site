@@ -157,10 +157,25 @@
 
 <div class="modal">
   <div class="modal__inner">
-    <h2 class="section-title section-title--blue section-title--less-margin"><span class="icon icon--mail section-title__icon"></span> <strong>Get in Touch</strong></h2>
+    <h2 class="section-title section-title--blue section-title--less-margin"><span class="icon icon--mail section-title__icon"></span> <strong>Contact Us</strong></h2>
     
     <div class="wrapper wrapper--narrow">
-      <p class="modal__description">We will have an online contact system in place soon. Until then, connect with us on any of the platforms below!</p>
+      <p class="modal__description">Have a question? Let us know what we can help you with in the fields below. Or let's chat on +16</p>
+      <div class="contact-form">
+          <form id="contact-form" method="post" action="">
+              
+            <input name="firstName" type="text" class="form-ctrl" placeholder="First Name" required><br>
+      
+            <input name="lastName" type="text" class="form-ctrl" placeholder="Last Name"required><br>
+      
+            <input name="email" type="email" class="form-ctrl" placeholder="Your Email"required><br>
+      
+            <textarea name="message" class="form-ctrl" placeholder="Message" rows="4" required></textarea><br>
+      
+            <div class="status"></div>
+            <input type="submit" class="form-ctrl submit" value="SEND MESSAGE">
+            </form>	
+          </div>
       </div>
 
       <div class="social-icons">
