@@ -1575,8 +1575,9 @@ transition: all 4s ease-in-out;
     background: transparent;
     border: none;
     outline: none;
-    border-bottom: 1px solid ;
-    color: #fff;
+    border-bottom: .5px solid ;
+    border-bottom-color: #868686;
+    color: #474747;
     font-size: 18px;
     margin-bottom: 16px;
 }
